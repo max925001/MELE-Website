@@ -1,13 +1,31 @@
-.project-title {
-    position: relative;
-    /* margin-top: 5rem; */
-    width: 100%;
-    height: 68vh;
-    background: linear-gradient( 140deg, #202d3e, #0f2e53 , #3f8dec);
-    overflow: hidden; /* Brown background with transparency */
+
+h1{
+    color: rgb(13, 55, 90);
+    text-shadow:2px 4px 2px lightblue;
+    /* overflow-y: hidden; */
 }
 .project-container{
-    height: 250vh;
+    height: 350vh;
+}
+.service-desc-2{
+    margin-top: 3.5rem;
+}
+.second-right-sec{
+    margin-left: 10rem;
+}
+.second-left-sec img{
+    width: 30rem;
+    height: 25rem;
+    /* margin-top: ; */
+}
+.second-right-sec p{
+    line-height: 2;
+}
+.services-grid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 2rem; */
 }
 .background-img {
     width: 80%;
@@ -15,35 +33,92 @@
     object-fit: cover;
 }
 
-.project-overlay {
-    position: absolute;
-    top: 50%;
-    left: 48%;
-    transform: translate(-50%, -50%);
+.project-title {
+    width: 100%;
+    height: 85vh;
+    padding-top: 5rem;
+    background: linear-gradient(150deg,rgba(242, 243, 244, 0.26),rgb(230, 246, 248),rgba(22, 176, 253, 0.719));
+    /* background-color: rgb(2, 2, 37); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     
 
 }
-.project-overlay h1 {
-    color: rgb(247, 246, 249); /* Text color */
-    font-size: 3.5rem;
+.project-headings {
+    /* padding-left: 5rem; */
+    margin-left: 4rem;
+    white-space: nowrap;
+    margin-right: 5rem;
+}
+.project-title h1 {
+    /* margin-top: 5rem; */
+    color: rgb(32, 7, 80); /* Text color */
+    font-size: 4.5rem;
+    /* margin-right: 4rem; */
+
     font-weight: 400; /* Font size */
     text-shadow: 2px 4px 4px rgba(52, 108, 211, 0.7); /* Adds a shadow for better visibility */
 }
-.project-overlay h3{
-    color: white;
-    text-shadow: 2px 2px 4px rgba(155, 175, 196, 0.7); 
-    margin-left: 3.5rem;
-    font-size: larger;
+/* .header-right {
+    max-width: 45rem;
+    padding-top:3em ;
+    margin-right: 15rem;
+} */
+.project-title img{
+    /* ma-left: -10rem; */
+    /* border: 2px solid black; */
+    border-radius: 7rem 5rem 5rem 1rem;
+}
+.project-title h3{
+    color: rgb(33, 4, 104);
+    /* text-shadow: 2px 1px 2px rgba(208, 219, 232, 0.7);  */
+    margin-left: 7rem;
+    font-size: 1.5rem;
+    line-height: 4rem;
 }
 .service-intro {
-    max-width: 800px; /* Set a maximum width for better readability */
-    margin: 20px auto; /* Center the div horizontally */
+    /* max-width: 800px; Set a maximum width for better readability */
+    /* margin: 2rem auto; */
     padding: 2px; /* Add padding for spacing */
-    text-align: center; /* Center align the text */
+    /* text-align: center; */
     font-size: 1.2rem; /* Adjust font size */
-    line-height: 1.5; /* Increase line height for readability */
+    line-height: 2; /* Increase line height for readability */
     color: #333; /* Set text color */
     border-radius: 8px; /* Add rounded corners */
     /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); */
 }
+.service-intro h1{
+    color: rgb(13, 55, 90);
+    text-shadow:2px 4px 2px lightblue;
+    padding-bottom: 1rem;
+    line-height: 1.5;
+    /* white-space: nowrap; */
 
+}
+.header-right{
+    margin-left: 1rem;
+    /* margin-right: -1rem; */
+    width: 45rem;
+    /* background-color: rgba(109, 189, 236, 0.244); */
+}
+
+.button{
+    border: 2px solid rgb(237, 230, 230);
+    background-color: rgba(29, 169, 184, 0.727);
+    margin-left: 15rem;
+    color: rgb(12, 7, 52);
+    font-size: larger;
+    font-weight: 600;
+    /* text-shadow: 1px 1px 1px lightblue; */
+    /* box-shadow: 1px 1px 1px 1px rgb(35, 126, 125); */
+    border-radius: 2rem;
+    
+}
+.service-types{
+    text-align: center;
+    padding-left: 25rem;
+}
+.service-types h3{
+    white-space: nowrap;
+}
