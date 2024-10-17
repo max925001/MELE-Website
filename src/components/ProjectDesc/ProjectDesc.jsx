@@ -4,13 +4,7 @@ import { projectsData } from '../../Data/Data.jsx';
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import './ProjectDesc.css';
-
-// Add Google Fonts
-const fontLink = document.createElement('link');
-fontLink.href = 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap';
-fontLink.rel = 'stylesheet';
-document.head.appendChild(fontLink);
+import './ProjectDesc.css';  // Import the CSS for infinite animation
 
 // Helper function to render stars with horizontal layout and hover effect
 const renderStars = (rating) => {
@@ -60,13 +54,7 @@ const ProjectDesc = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-blue-100 py-10 px-4 lg:px-24 relative font-poppins">
-      {/* Scroll Progress Bar */}
-      <div
-        className="fixed top-0 left-0 h-2 bg-blue-500 z-50"
-        style={{ width: `${scrollProgress}%` }}
-      ></div>
-
+    <div className="min-h-screen bg-gray-50 py-10 px-4 lg:px-24">
       {/* Project Header */}
       <div className="animate__animated animate__fadeInDown mt-20" data-aos="fade-up">
         <h1 className="text-4xl lg:text-5xl  text-center mb-6 text-gray-800 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500 font-semibold">
@@ -160,6 +148,7 @@ const ProjectDesc = () => {
         </a>
       </div>
     </div>
+
   );
 };
 
