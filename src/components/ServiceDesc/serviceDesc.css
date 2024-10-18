@@ -7,11 +7,7 @@ h1{
 .project-container{
     max-height: 250vh;
 }
-.background-img {
-    width: 80%;
-    height: 70%;
-    object-fit: cover;
-}
+
 
 .project-title h1 {
     

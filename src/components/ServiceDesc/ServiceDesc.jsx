@@ -34,7 +34,7 @@ const ServiceDesc = () => {
     <button className='p-2 button w-1/2 md:w-1/4 transform transition-transform duration-300 hover:scale-105 hover:bg-blue-300 shadow-md hover:shadow-lg' data-aos="fade-right">Contact Us</button>
   </div>
   <div className="header-right ml-0 md:ml-10 w-full md:w-1/2 lg:w-1/3">
-    <img src={web3} alt="Web Development" className="w-full h-auto mx-auto md:max-w-xs lg:max-w-sm" data-aos="fade-up" />
+    <img src={web3} alt="Web Development" className="w-full h-auto mx-auto md:max-w-s lg:max-w-sm" data-aos="fade-up" />
   </div>
 </div>
 
